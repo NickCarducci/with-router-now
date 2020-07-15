@@ -10,7 +10,7 @@ Download the example [or clone the whole project](https://github.com/jaredpalmer
 ```bash
 mkdir yourFolder
 cd yourFolder
-git clone https://codeload.github.com/NickCarducci/with-router-now
+git clone https://github.com/NickCarducci/with-router-now
 cd with-router-now
 ```
 
