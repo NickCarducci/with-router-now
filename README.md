@@ -8,8 +8,9 @@ https://github.com/jaredpalmer/razzle/tree/master/examples/with-now-v2
 Download the example [or clone the whole project](https://github.com/jaredpalmer/razzle.git):
 
 ```bash
-curl https://codeload.github.com/jaredpalmer/razzle/tar.gz/master | tar -xz --strip=2 razzle-master/examples/with-now-v2
-cd with-now-v2
+mkdir with-router-now
+cd with-router-now
+git clone https://codeload.github.com/NickCarducci/with-router-now
 ```
 
 Install it and run:
