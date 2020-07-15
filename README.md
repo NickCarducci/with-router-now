@@ -67,10 +67,10 @@ We are also setting the `NODE_ENV` environment variable. Most likely, your app w
     }
   ],
   "routes": [{
-    "src": "/(.*)/(.*)/(.*)",
+    "src": "/static/(.*)/(.*)/(.*)",
     "dest": "build/public/static/$1/$1/$1"
   },{
-    "src": "/(.*)/(.*)",
+    "src": "/static/(.*)/(.*)",
     "dest": "build/public/static/$1/$1"
   },{
       "src": "/static/(.*)",
