@@ -42,3 +42,7 @@ We are also setting the `NODE_ENV` environment variable. Most likely, your app w
 * [Zeit Now v2 Documentation](https://zeit.co/docs/v2/)
   * [@now/node-server](https://zeit.co/docs/v2/deployments/official-builders/node-js-server-now-node-server/)
   * [Environment Variables and Secrets](https://zeit.co/docs/v2/deployments/environment-variables-and-secrets/)
+  
+  Then I replaced server.js, app.test.js, client.js and package.json at least with-react-router example. This seems to work, but I am using this to test from instead of recreating it during development integrating my client code
+  
+  It's blank because I erased the react-router Route in Switch to Home and About, idk why I did but I did and that is why it is blank white screen when it works
