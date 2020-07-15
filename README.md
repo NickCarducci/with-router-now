@@ -92,5 +92,4 @@ We are also setting the `NODE_ENV` environment variable. Most likely, your app w
   "env": {
     "NODE_ENV": "production"
   }
-}
   ````
