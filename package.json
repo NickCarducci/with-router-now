@@ -16,6 +16,9 @@
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
-    "razzle": "latest"
+    "@babel/core": "^7.10.2",
+    "typescript": "^3.3.3",
+    "razzle": "latest",
+    "react-scripts": "^3.0.1"
   }
 }
