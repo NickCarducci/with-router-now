@@ -93,3 +93,5 @@ We are also setting the `NODE_ENV` environment variable. Most likely, your app w
     "NODE_ENV": "production"
   }
   ````
+  trying... https://wavv.art
+  trying... https://wavvart.nickcarducci.vercel.app/
