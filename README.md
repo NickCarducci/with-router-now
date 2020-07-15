@@ -53,3 +53,44 @@ We are also setting the `NODE_ENV` environment variable. Most likely, your app w
   It's blank because I erased the react-router Route in Switch to Home and About, idk why I did but I did and that is why it is blank white screen when it works
   
   now.json - https://github.com/jaredpalmer/razzle/issues/900#issuecomment-504701394
+  
+  ````
+  {
+  "version": 2,
+  "builds": [
+    {
+      "src": "build/public/**/*",
+      "use": "@now/static"
+    },{
+      "src": "build/server.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [{
+    "src": "/(.*)/(.*)/(.*)",
+    "dest": "build/public/static/$1/$1/$1"
+  },{
+    "src": "/(.*)/(.*)",
+    "dest": "build/public/static/$1/$1"
+  },{
+      "src": "/static/(.*)",
+      "dest": "build/public/static/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "favicon.ico"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "robots.txt"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "build/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
+  ````
