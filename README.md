@@ -1,4 +1,5 @@
 copied from github.com/jaredpalmer/razzle
+https://github.com/jaredpalmer/razzle/tree/master/examples/with-now-v2
 
 # Razzle Now v2 Example
 
